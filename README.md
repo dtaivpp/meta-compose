@@ -51,3 +51,9 @@ docker compose --file opensearch/docker-compose.yml \
 ```
 
 You may have noticed that the .env file specification isn't being passed through. That is becuase python-dotenv is ingesting the environment file and injecting it in on the fly.
+
+### Publish notes for future me
+```
+git tag -a "v0.0.3-beta" -m "<Release Notes>"
+git push --tags
+```
