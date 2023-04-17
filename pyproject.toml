@@ -1,0 +1,34 @@
+[project]
+name = "meta-compose"
+version = "0.0.1"
+
+authors = [
+  { name="David Tippett"},
+]
+
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+description = "Meta-compose is a small utility for managing docker compose deployments"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[tool.pylint.format]
+indent-string='  '
+
+[tool.pylint.Master]
+ignore-paths = ["test/*"]
+
+[tool.autopep8]
+indent-size=2
+
+[project.urls]
+"Homepage" = "https://github.com/dtaivpp/meta-compose"
+"Bug Tracker" = "https://github.com/dtaivpp/meta-compose/issues"
+
+
+[project.scripts]
+meta-compose = "composer.main:main"

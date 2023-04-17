@@ -1,0 +1,10 @@
+{
+  "cluster-demo": 
+  {
+      "file": [
+          "opensearch-cluster.yml", 
+          "opensearch-dashboards.yml"
+      ],
+      "env-file": ".env"
+  }
+}
