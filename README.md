@@ -17,7 +17,7 @@ Inside you can specify any number of the `docker compose` standard arguments. Th
 
 ```json
 {
-  "observaibility": {
+  "observability": {
     "file": [
       "opensearch/docker-compose.yml",
       "fluentd/docker-compose.yml"
